@@ -6,8 +6,5 @@ class Solution:
             dig=x%10
             ans=ans*10+dig
             x//=10
-        if ans==temp:
-            return True
-        else:
-            return False
+        return True if ans == temp  else False
         
